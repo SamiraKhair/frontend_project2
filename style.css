@@ -1,0 +1,192 @@
+/* External CSS */
+body {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    background-color: #da8eb4;
+    color: #461a32;
+}
+
+
+.nav{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    
+  }
+
+.logo {
+ 
+}
+
+.navbar {
+  display: flex;
+  min-width: 1500px;
+  background-color: #e282b7;
+  border-bottom: 5px solid rgb(82, 23, 52);
+  max-height: 200px;
+  z-index: 1000;
+  padding: 2px 0px;
+  position: fixed;
+
+}
+
+.nav-item-holder{
+     margin-top: 15px;
+     list-style: none;
+     display: flex;
+     margin-left: 1000px;
+    
+       
+  }
+
+  .nav-item{
+    font-weight: bold;
+    margin: 0px 20px;
+    
+    
+  }
+
+
+.nav-item a {
+  color: #b35584;
+}
+
+  .nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(105, 31, 83);
+}
+
+  a h3{
+    color: rgb(156, 51, 139);
+    border: 2px solid rgb(160, 65, 101);
+    padding: 3px;
+    border-radius: 5px;
+  }
+  .nav a{
+    text-decoration: none;
+    color: #a12572;
+  }
+
+
+   a{
+    text-decoration: none;
+    
+  }
+
+
+.header-text {
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+img {
+    margin-top: 60px;
+    min-width: 350px;
+    height: 600px;
+    margin-left: 1200px;
+}
+
+
+.me {
+  
+}
+
+
+.info {
+  padding: 20px;
+  margin: 20px;
+  border: 5px rgb(82, 23, 52) solid;
+  border-radius: 8px;
+  background-color: #d4a6c3; 
+}
+
+
+
+.education {
+    padding: 20px;
+    margin: 20px;
+    border: 5px rgb(82, 23, 52) solid;
+    border-radius: 8px;
+    background-color: #d4a6c3; 
+   
+}
+
+
+
+.study {
+  display: flex;
+  min-width: 1500px;
+  justify-content: center;
+ 
+}
+
+
+.research {
+    border: 5px rgb(82, 23, 52) solid;
+    background-color: #d4a6c3;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 20px 40px;
+}
+
+
+.publications a{
+  padding: 0px 500px;
+}
+
+.projects {
+    margin-top: 40px;
+    border: 5px rgb(82, 23, 52) solid;
+    background-color: #d4a6c3;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 20px 40px;
+}
+
+
+.papers {
+  display: flex;
+  min-width: 1500px;
+  justify-content: center;
+}
+
+
+.research a:hover {
+    text-decoration: underline;
+}
+
+#personal h2,p {
+    border: 5px rgb(82, 23, 52) solid;
+    color: #461a32;
+    background-color: #d4a6c3;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 20px 40px;
+}
+
+
+#contact {
+  color:  #461a32;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #461636;
+    color:  #461a32;
+}
